@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Ewrn7GalDOmWs5PCJU5rVdgLgVUAg8SL1AWCz9zCwYFGRciukUp2xeRiv4LaU+GJ7AMVR3vE1TZhRrx4tM9Xw==",
+  "success": true,
+  "projectFilePath": "/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/PracticeHttpClient.csproj",
+  "expectedPackageFiles": [
+    "/Users/nagarjunarapolu/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/Users/nagarjunarapolu/.nuget/packages/microsoft.netcore.app.ref/6.0.23/microsoft.netcore.app.ref.6.0.23.nupkg.sha512",
+    "/Users/nagarjunarapolu/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.23/microsoft.aspnetcore.app.ref.6.0.23.nupkg.sha512",
+    "/Users/nagarjunarapolu/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.23/microsoft.netcore.app.host.osx-arm64.6.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}

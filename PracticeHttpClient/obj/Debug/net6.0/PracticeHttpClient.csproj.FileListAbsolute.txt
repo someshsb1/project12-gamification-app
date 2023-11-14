@@ -1,0 +1,17 @@
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/bin/Debug/net6.0/PracticeHttpClient
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/bin/Debug/net6.0/PracticeHttpClient.deps.json
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/bin/Debug/net6.0/PracticeHttpClient.runtimeconfig.json
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/bin/Debug/net6.0/PracticeHttpClient.dll
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/bin/Debug/net6.0/PracticeHttpClient.pdb
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.csproj.AssemblyReference.cache
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.AssemblyInfoInputs.cache
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.AssemblyInfo.cs
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.csproj.CoreCompileInputs.cache
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.csproj.CopyComplete
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.dll
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/refint/PracticeHttpClient.dll
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.pdb
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/PracticeHttpClient.genruntimeconfig.cache
+/Users/nagarjunarapolu/Downloads/Gamification.UI/PracticeHttpClient/obj/Debug/net6.0/ref/PracticeHttpClient.dll
