@@ -14,6 +14,7 @@ namespace Gamification.UI.Models
         //[Required] 
         //public int ClientId { get; set; }
 
+
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }

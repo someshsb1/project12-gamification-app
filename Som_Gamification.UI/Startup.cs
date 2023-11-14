@@ -39,6 +39,7 @@ namespace Gamification.UI
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders().AddDefaultUI();
             // services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
+            //services.AddScoped<IPasswordValidationService, PasswordValidationService>();
 
 
             services.AddControllersWithViews();
