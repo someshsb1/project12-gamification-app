@@ -8,7 +8,7 @@ namespace Gamification.UI.Models
     public class ResetPasswordViewModel
     {
 
-
+    public bool IsPasswordPatternMatch { get; set; }    
     [Required]
         [Display(Name = "Username")]
         public string Username { get; set; }

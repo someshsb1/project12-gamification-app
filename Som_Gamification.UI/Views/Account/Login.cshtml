@@ -4,6 +4,8 @@
 
 @{
     Layout = null;
+    var showPasswordChangeMessage = ViewData["ShowPasswordChangeMessage"] as string;
+    var isPasswordChangeRequired = !string.IsNullOrEmpty(showPasswordChangeMessage);
 }
 
 <h1>@ViewData["Title"]</h1>

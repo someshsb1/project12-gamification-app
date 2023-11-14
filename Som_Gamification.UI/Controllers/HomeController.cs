@@ -62,16 +62,7 @@ namespace Gamification.UI.Controllers
         {
             try
             {
-
-                //delete all the records in the leaderboard
-                var rows = from o in _db.LeaderBoaders
-                           select o;
-                foreach (var row in rows)
-                {
-                    _db.LeaderBoaders.Remove(row);
-                }
-                _db.SaveChanges();
-
+                
                 var userInfo = new ApplicationUser();
 
                 var userList = _db.ApplicationUsers.ToList().Where(q => q.UserId == HttpContext.User.Identity.Name.ToUpper());
@@ -195,8 +186,7 @@ namespace Gamification.UI.Controllers
                     // If the record doesn't exist, create it
                     var records = new LeaderBoader()
                     {
-                        //CaseStudy = "FI_AR",
-                        CaseStudy = _caseStudy,
+                        CaseStudy = "FI_AR",
                         Username = userInfo.UserId,
                         Point = point
                     };
@@ -489,73 +479,346 @@ namespace Gamification.UI.Controllers
             }
             var data = await getBatch(caseStudy);
             var badge = new List<Badges>();
-            if (data.Contains("Login"))
-            {
-                badge.Add(new Badges()
-                {
-                    Badge = "Login"
-                });
-            }
-            else if (data.Contains("Master"))
-            {
-                badge.Add(new Badges()
-                {
-                    Badge = "Master"
-                });
-                badge.Add(new Badges()
-                {
-                    Badge = "Login"
-                });
-            }
-            else if (data.Contains("RFQ"))
-            {
-                badge.Add(new Badges()
-                {
-                    Badge = "Master"
-                });
-                badge.Add(new Badges()
-                {
-                    Badge = "Login"
-                });
-                badge.Add(new Badges()
-                {
-                    Badge = "RFQ"
-                });
-            }
-            else if (data.Contains("PO"))
-            {
-                badge.Add(new Badges()
-                {
-                    Badge = "Master"
-                });
-                badge.Add(new Badges()
-                {
-                    Badge = "Login"
-                });
-                badge.Add(new Badges()
-                {
-                    Badge = "RFQ"
-                });
-                badge.Add(new Badges() { Badge = "PO" });
-            }
-            else if (data.Contains("FI"))
-            {
-                badge.Add(new Badges()
-                {
-                    Badge = "Master"
-                });
-                badge.Add(new Badges()
-                {
-                    Badge = "Login"
-                });
-                badge.Add(new Badges()
-                {
-                    Badge = "RFQ"
-                });
-                badge.Add(new Badges() { Badge = "PO" });
-                badge.Add(new Badges() { Badge = "FI" });
-            }
+            switch (caseStudy){
+                case "PP":
+                    if (data.Contains("Login")){
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("Master"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                            badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("SOP"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "SOP"
+                        });
+                    }
+                    else if (data.Contains("MRP"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "SOP"
+                        });
+                        badge.Add(new Badges() { Badge = "MRP" });
+                    }
+                    else if (data.Contains("Production"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "SOP"
+                        });
+                        badge.Add(new Badges() { Badge = "MRP" });
+                        badge.Add(new Badges() { Badge = "Production" });
+                    }
+                    break;
 
+                case "SD":
+                    if (data.Contains("Login")){
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("Master"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                            badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("Quotation"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Quotation"
+                        });
+                    }
+                    else if (data.Contains("Sales"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Quotations"
+                        });
+                        badge.Add(new Badges() { Badge = "Sales" });
+                    }
+                    else if (data.Contains("Biling"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Quotations"
+                        });
+                        badge.Add(new Badges() { Badge = "Sales" });
+                        badge.Add(new Badges() { Badge = "Biling" });
+                    }
+                    break;
+                case "FI-AR":
+                    if (data.Contains("Login")){
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("Master"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                            badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("Invoice"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Invoice"
+                        });
+                    }
+                    else if (data.Contains("Payment"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Invoice"
+                        });
+                        badge.Add(new Badges() { Badge = "Payment" });
+                    }
+                    else if (data.Contains("Scenario"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Invoice"
+                        });
+                        badge.Add(new Badges() { Badge = "Payment" });
+                        badge.Add(new Badges() { Badge = "Scenario" });
+                    }
+                    break;
+                case "FI-AP":
+                    if (data.Contains("Login")){
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("Master"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                            badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("Funds"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Funds"
+                        });
+                    }
+                    else if (data.Contains("Invoice"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Funds"
+                        });
+                        badge.Add(new Badges() { Badge = "Invoice" });
+                    }
+                    else if (data.Contains("Payment"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Funds"
+                        });
+                        badge.Add(new Badges() { Badge = "Invoice" });
+                        badge.Add(new Badges() { Badge = "Payment" });
+                    }   
+                    break;
+                default:
+                    if (data.Contains("Login"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("Master"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                            badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                    }
+                    else if (data.Contains("RFQ"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "RFQ"
+                        });
+                    }
+                    else if (data.Contains("PO"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "RFQ"
+                        });
+                        badge.Add(new Badges() { Badge = "PO" });
+                    }
+                    else if (data.Contains("FI"))
+                    {
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Master"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "Login"
+                        });
+                        badge.Add(new Badges()
+                        {
+                            Badge = "RFQ"
+                        });
+                        badge.Add(new Badges() { Badge = "PO" });
+                        badge.Add(new Badges() { Badge = "FI" });
+                    }
+                    break;
+            }
+            
             return View(badge);
         }
 
