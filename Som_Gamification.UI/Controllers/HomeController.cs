@@ -624,7 +624,7 @@ namespace Gamification.UI.Controllers
                         badge.Add(new Badges() { Badge = "Biling" });
                     }
                     break;
-                case "FI-AR":
+                case "FI_AR":
                     if (data.Contains("Login")){
                         badge.Add(new Badges()
                         {
@@ -691,7 +691,7 @@ namespace Gamification.UI.Controllers
                         badge.Add(new Badges() { Badge = "Scenario" });
                     }
                     break;
-                case "FI-AP":
+                case "FI":
                     if (data.Contains("Login")){
                         badge.Add(new Badges()
                         {
