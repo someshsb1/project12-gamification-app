@@ -62,6 +62,14 @@ namespace Gamification.UI.Controllers
         {
             try
             {
+                //delete all the records in the leaderboard
+                 var rows = from o in _db.LeaderBoaders
+                            select o;
+                 foreach (var row in rows)
+                 {
+                     _db.LeaderBoaders.Remove(row);
+                 }
+                 _db.SaveChanges();
                 
                 var userInfo = new ApplicationUser();
 
@@ -186,7 +194,8 @@ namespace Gamification.UI.Controllers
                     // If the record doesn't exist, create it
                     var records = new LeaderBoader()
                     {
-                        CaseStudy = "FI_AR",
+                        //CaseStudy = "FI_AR",
+                        CaseStudy = _caseStudy,
                         Username = userInfo.UserId,
                         Point = point
                     };
