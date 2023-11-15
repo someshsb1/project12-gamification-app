@@ -11,39 +11,51 @@
       gtag('js', new Date());
       gtag('config', 'G-ECPJX21DQD');
     </script>
-    <div class="row">
-      <div class="row justify-content-md-center">
-        <div class="col-md-auto m-2">
-          <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="FI_AR" class="btn btn-outline-primary">
-            <div data-i18n="Basic" id="FI_AR">FI - Accounts Receivable</div>
+  <div class="order-0 mb-4">
+      <div class="card h-100">
+        <div class="toolbar">
+          <a href="javascript:void(0);" class="toolbar-link toolbar-toggle">
+            <div data-i18n="Authentications"></div>
+            <div class="m-2">
+              <h5>Badges</h5>
+            </div>
           </a>
-        </div>
-        <div class="col-md-auto m-2">
-          <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="MM" class="btn btn-outline-primary">
-            <div data-i18n="Basic" id="MM">Materials Management</div>
-          </a>
-        </div>
-        <div class="col-md-auto m-2">
-          <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="FI" class="btn btn-outline-primary">
-            <div data-i18n="Basic" id="FI">FI - Accounts Payable</div>
-          </a>
-        </div>
-        <div class="col-md-auto m-2">
-          <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="SD" class="btn btn-outline-primary">
-            <div data-i18n="Basic" id="SD">Sales and Distribution</div>
-          </a>
-        </div>
-
-        <div class="col-md-auto m-2">
-          <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="PP" class="btn btn-outline-primary">
-            <div data-i18n="Basic" id="PP">Production Planning</div>
-          </a>
+          <div class="toolbar-sub">
+            <div class="row">
+              <div class="row justify-content-md-center">
+                <div class="col-md-auto m-2">
+                  <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="FI" class="btn btn-outline-primary">
+                    <div data-i18n="Basic" id="FI">FI - Accounts Payable</div>
+                  </a>
+                </div>
+                <div class="col-md-auto m-2">
+                  <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="FI_AR" class="btn btn-outline-primary">
+                    <div data-i18n="Basic" id="FI_AR">FI - Accounts Receivable</div>
+                  </a>
+                </div>
+                <div class="col-md-auto m-2">
+                  <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="MM" class="btn btn-outline-primary">
+                    <div data-i18n="Basic" id="MM">Materials Management</div>
+                  </a>
+                </div>
+                <div class="col-md-auto m-2">
+                  <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="PP" class="btn btn-outline-primary">
+                    <div data-i18n="Basic" id="PP">Production Planning</div>
+                  </a>
+                </div>
+                <div class="col-md-auto m-2">
+                  <a asp-controller="Home" asp-action="Badges" asp-route-caseStudy="SD" class="btn btn-outline-primary">
+                    <div data-i18n="Basic" id="SD">Sales and Distribution</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="row" style="padding-top: 10px;"></div>
+  @* <div class="row" style="padding-top: 10px;"></div> *@
 
   <div class="row">
     <div class="col-sm-12 col-md-12">

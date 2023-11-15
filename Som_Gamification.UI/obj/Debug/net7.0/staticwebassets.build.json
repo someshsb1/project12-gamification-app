@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aos+lQ5FHEgKRDRRYtWFtk4UD4ftuhiJXms7+MdqpIs=",
+  "Hash": "rfxwot6KKK31aPaEtEx5NioBE+f0QXrAqyU6+lHeXOs=",
   "Source": "Gamification.UI",
   "BasePath": "_content/Gamification.UI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Gamification.UI/wwwroot",
       "Source": "Gamification.UI",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/css/site.css",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/css/site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/css/site.css"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/css/site.css"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/favicon.ico",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/favicon.ico"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/favicon.ico"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/js/site.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/js/site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/js/site.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/js/site.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.css"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.css"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.css"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.css.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.min.css"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.min.css.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.js.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.min.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.min.js.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/LICENSE/LICENSE",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/LICENSE/LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE/LICENSE",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/LICENSE/LICENSE"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/bootstrap/LICENSE/LICENSE"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/LICENSE.txt"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/additional-methods.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/additional-methods.min.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/jquery.validate.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/jquery.validate.min.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/LICENSE.md"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.min.js"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.min.map"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
+      "ContentRoot": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/dhruvshah/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/LICENSE.txt"
+      "OriginalItemSpec": "/Users/someshbalani/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.17/staticwebassets/V4/lib/jquery/LICENSE.txt"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/.DS_Store",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/.DS_Store",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/.DS_Store",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/.DS_Store",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/.DS_Store",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot/assets/.DS_Store"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/css/demo.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/css/demo.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/css/demo.css",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot/assets/css/demo.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/.DS_Store",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/.DS_Store",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/.DS_Store",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/.DS_Store"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/avatars/1.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/avatars/1.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/avatars/1.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatars/1.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/avatars/5.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/avatars/5.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/avatars/5.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatars/5.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/avatars/6.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/avatars/6.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/avatars/6.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatars/6.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/avatars/7.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/avatars/7.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/avatars/7.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/avatars/7.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/backgrounds/18.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/backgrounds/18.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/backgrounds/18.jpg",
       "AssetKind": "All",
@@ -782,12 +782,12 @@
       "OriginalItemSpec": "wwwroot/assets/img/backgrounds/18.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Biling.jpeg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/.DS_Store",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
-      "RelativePath": "assets/img/badges/Biling.jpeg",
+      "RelativePath": "assets/img/badges/.DS_Store",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -796,13 +796,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/badges/Biling.jpeg"
+      "OriginalItemSpec": "wwwroot/assets/img/badges/.DS_Store"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/FI.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Biling.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
+      "BasePath": "_content/Gamification.UI",
+      "RelativePath": "assets/img/badges/Biling.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/badges/Biling.png"
+    },
+    {
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/FI.png",
+      "SourceId": "Gamification.UI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/badges/FI.png",
       "AssetKind": "All",
@@ -816,12 +833,12 @@
       "OriginalItemSpec": "wwwroot/assets/img/badges/FI.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Funds.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Funds.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
-      "RelativePath": "assets/img/badges/Funds.jpg",
+      "RelativePath": "assets/img/badges/Funds.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -830,15 +847,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/badges/Funds.jpg"
+      "OriginalItemSpec": "wwwroot/assets/img/badges/Funds.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Invoice.jpeg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Invoice.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
-      "RelativePath": "assets/img/badges/Invoice.jpeg",
+      "RelativePath": "assets/img/badges/Invoice.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -847,13 +864,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/badges/Invoice.jpeg"
+      "OriginalItemSpec": "wwwroot/assets/img/badges/Invoice.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Login.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Login.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/badges/Login.png",
       "AssetKind": "All",
@@ -867,10 +884,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/badges/Login.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Master.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Master.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/badges/Master.png",
       "AssetKind": "All",
@@ -884,10 +901,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/badges/Master.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/MRP.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/MRP.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/badges/MRP.png",
       "AssetKind": "All",
@@ -901,12 +918,12 @@
       "OriginalItemSpec": "wwwroot/assets/img/badges/MRP.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Payment.jpeg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Payment.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
-      "RelativePath": "assets/img/badges/Payment.jpeg",
+      "RelativePath": "assets/img/badges/Payment.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -915,13 +932,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/badges/Payment.jpeg"
+      "OriginalItemSpec": "wwwroot/assets/img/badges/Payment.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/PO.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/PO.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/badges/PO.png",
       "AssetKind": "All",
@@ -935,12 +952,12 @@
       "OriginalItemSpec": "wwwroot/assets/img/badges/PO.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Production.jpeg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Production.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
-      "RelativePath": "assets/img/badges/Production.jpeg",
+      "RelativePath": "assets/img/badges/Production.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -949,13 +966,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/badges/Production.jpeg"
+      "OriginalItemSpec": "wwwroot/assets/img/badges/Production.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Quotations.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Quotations.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/badges/Quotations.png",
       "AssetKind": "All",
@@ -969,10 +986,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/badges/Quotations.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/RFQ.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/RFQ.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/badges/RFQ.png",
       "AssetKind": "All",
@@ -986,12 +1003,12 @@
       "OriginalItemSpec": "wwwroot/assets/img/badges/RFQ.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Sales.jpeg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Sales.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
-      "RelativePath": "assets/img/badges/Sales.jpeg",
+      "RelativePath": "assets/img/badges/Sales.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1000,15 +1017,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/badges/Sales.jpeg"
+      "OriginalItemSpec": "wwwroot/assets/img/badges/Sales.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/Scenario.jpeg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/Scenario.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
-      "RelativePath": "assets/img/badges/Scenario.jpeg",
+      "RelativePath": "assets/img/badges/Scenario.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1017,15 +1034,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/badges/Scenario.jpeg"
+      "OriginalItemSpec": "wwwroot/assets/img/badges/Scenario.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/badges/SOP.jpeg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/badges/SOP.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
-      "RelativePath": "assets/img/badges/SOP.jpeg",
+      "RelativePath": "assets/img/badges/SOP.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1034,13 +1051,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/assets/img/badges/SOP.jpeg"
+      "OriginalItemSpec": "wwwroot/assets/img/badges/SOP.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/1.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/1.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/1.jpg",
       "AssetKind": "All",
@@ -1054,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/1.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/11.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/11.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/11.jpg",
       "AssetKind": "All",
@@ -1071,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/11.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/12.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/12.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/12.jpg",
       "AssetKind": "All",
@@ -1088,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/12.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/13.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/13.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/13.jpg",
       "AssetKind": "All",
@@ -1105,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/13.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/17.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/17.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/17.jpg",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/17.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/18.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/18.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/18.jpg",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/18.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/19.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/19.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/19.jpg",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/19.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/2.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/2.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/2.jpg",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/2.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/20.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/20.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/20.jpg",
       "AssetKind": "All",
@@ -1190,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/20.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/3.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/3.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/3.jpg",
       "AssetKind": "All",
@@ -1207,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/3.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/4.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/4.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/4.jpg",
       "AssetKind": "All",
@@ -1224,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/4.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/5.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/5.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/5.jpg",
       "AssetKind": "All",
@@ -1241,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/5.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/elements/7.jpg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/elements/7.jpg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/elements/7.jpg",
       "AssetKind": "All",
@@ -1258,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/elements/7.jpg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/favicon/favicon.ico",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/favicon/favicon.ico",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/favicon/favicon.ico",
       "AssetKind": "All",
@@ -1275,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/favicon/favicon.ico"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/asana.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/asana.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/asana.png",
       "AssetKind": "All",
@@ -1292,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/asana.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/behance.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/behance.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/behance.png",
       "AssetKind": "All",
@@ -1309,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/behance.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/dribbble.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/dribbble.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/dribbble.png",
       "AssetKind": "All",
@@ -1326,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/dribbble.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/facebook.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/facebook.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/facebook.png",
       "AssetKind": "All",
@@ -1343,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/facebook.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/github.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/github.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/github.png",
       "AssetKind": "All",
@@ -1360,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/github.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/google.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/google.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/google.png",
       "AssetKind": "All",
@@ -1377,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/google.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/instagram.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/instagram.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/instagram.png",
       "AssetKind": "All",
@@ -1394,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/instagram.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/mailchimp.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/mailchimp.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/mailchimp.png",
       "AssetKind": "All",
@@ -1411,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/mailchimp.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/slack.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/slack.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/slack.png",
       "AssetKind": "All",
@@ -1428,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/slack.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/brands/twitter.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/brands/twitter.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/brands/twitter.png",
       "AssetKind": "All",
@@ -1445,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/brands/twitter.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/unicons/cc-primary.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/unicons/cc-primary.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/unicons/cc-primary.png",
       "AssetKind": "All",
@@ -1462,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/unicons/cc-primary.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/unicons/cc-success.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/unicons/cc-success.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/unicons/cc-success.png",
       "AssetKind": "All",
@@ -1479,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/unicons/cc-success.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/unicons/cc-warning.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/unicons/cc-warning.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/unicons/cc-warning.png",
       "AssetKind": "All",
@@ -1496,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/unicons/cc-warning.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/unicons/chart-success.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/unicons/chart-success.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/unicons/chart-success.png",
       "AssetKind": "All",
@@ -1513,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/unicons/chart-success.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/unicons/chart.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/unicons/chart.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/unicons/chart.png",
       "AssetKind": "All",
@@ -1530,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/unicons/chart.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/unicons/paypal.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/unicons/paypal.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/unicons/paypal.png",
       "AssetKind": "All",
@@ -1547,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/unicons/paypal.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/unicons/wallet-info.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/unicons/wallet-info.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/unicons/wallet-info.png",
       "AssetKind": "All",
@@ -1564,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/unicons/wallet-info.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/icons/unicons/wallet.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/icons/unicons/wallet.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/icons/unicons/wallet.png",
       "AssetKind": "All",
@@ -1581,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/icons/unicons/wallet.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/illustrations/a.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/illustrations/a.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/illustrations/a.png",
       "AssetKind": "All",
@@ -1598,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/illustrations/a.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/illustrations/b.webm",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/illustrations/b.webm",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/illustrations/b.webm",
       "AssetKind": "All",
@@ -1615,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/illustrations/b.webm"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/illustrations/man-with-laptop-light.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/illustrations/man-with-laptop-light.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/illustrations/man-with-laptop-light.png",
       "AssetKind": "All",
@@ -1632,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/illustrations/man-with-laptop-light.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/illustrations/page-misc-error-light.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/illustrations/page-misc-error-light.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/illustrations/page-misc-error-light.png",
       "AssetKind": "All",
@@ -1649,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/illustrations/page-misc-error-light.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/layouts/layout-container-light.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/layouts/layout-container-light.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/layouts/layout-container-light.png",
       "AssetKind": "All",
@@ -1666,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/layouts/layout-container-light.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/layouts/layout-fluid-light.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/layouts/layout-fluid-light.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/layouts/layout-fluid-light.png",
       "AssetKind": "All",
@@ -1683,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/layouts/layout-fluid-light.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/layouts/layout-without-menu-light.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/layouts/layout-without-menu-light.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/layouts/layout-without-menu-light.png",
       "AssetKind": "All",
@@ -1700,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/layouts/layout-without-menu-light.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/img/layouts/layout-without-navbar-light.png",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/img/layouts/layout-without-navbar-light.png",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/img/layouts/layout-without-navbar-light.png",
       "AssetKind": "All",
@@ -1717,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot/assets/img/layouts/layout-without-navbar-light.png"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/config.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/config.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/config.js",
       "AssetKind": "All",
@@ -1734,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/config.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/dashboards-analytics.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/dashboards-analytics.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/dashboards-analytics.js",
       "AssetKind": "All",
@@ -1751,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/dashboards-analytics.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/extended-ui-perfect-scrollbar.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/extended-ui-perfect-scrollbar.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/extended-ui-perfect-scrollbar.js",
       "AssetKind": "All",
@@ -1768,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/extended-ui-perfect-scrollbar.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/form-basic-inputs.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/form-basic-inputs.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/form-basic-inputs.js",
       "AssetKind": "All",
@@ -1785,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/form-basic-inputs.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/main.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/main.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/main.js",
       "AssetKind": "All",
@@ -1802,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/main.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/normalJs.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/normalJs.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/normalJs.js",
       "AssetKind": "All",
@@ -1819,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/normalJs.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/pages-account-settings-account.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/pages-account-settings-account.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/pages-account-settings-account.js",
       "AssetKind": "All",
@@ -1836,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/pages-account-settings-account.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/ui-modals.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/ui-modals.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/ui-modals.js",
       "AssetKind": "All",
@@ -1853,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/ui-modals.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/ui-popover.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/ui-popover.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/ui-popover.js",
       "AssetKind": "All",
@@ -1870,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/ui-popover.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/js/ui-toasts.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/js/ui-toasts.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/js/ui-toasts.js",
       "AssetKind": "All",
@@ -1887,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot/assets/js/ui-toasts.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/css/core.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/css/core.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/css/core.css",
       "AssetKind": "All",
@@ -1904,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/css/core.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/css/pages/page-account-settings.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/css/pages/page-account-settings.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/css/pages/page-account-settings.css",
       "AssetKind": "All",
@@ -1921,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/css/pages/page-account-settings.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/css/pages/page-auth.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/css/pages/page-auth.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/css/pages/page-auth.css",
       "AssetKind": "All",
@@ -1938,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/css/pages/page-auth.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/css/pages/page-icons.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/css/pages/page-icons.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/css/pages/page-icons.css",
       "AssetKind": "All",
@@ -1955,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/css/pages/page-icons.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/css/pages/page-misc.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/css/pages/page-misc.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/css/pages/page-misc.css",
       "AssetKind": "All",
@@ -1972,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/css/pages/page-misc.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/css/theme-default.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/css/theme-default.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/css/theme-default.css",
       "AssetKind": "All",
@@ -1989,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/css/theme-default.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/fonts/boxicons.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/fonts/boxicons.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/fonts/boxicons.css",
       "AssetKind": "All",
@@ -2006,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/fonts/boxicons.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.eot",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.eot",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/fonts/boxicons/boxicons.eot",
       "AssetKind": "All",
@@ -2023,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/fonts/boxicons/boxicons.eot"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.svg",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.svg",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/fonts/boxicons/boxicons.svg",
       "AssetKind": "All",
@@ -2040,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/fonts/boxicons/boxicons.svg"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.ttf",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.ttf",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/fonts/boxicons/boxicons.ttf",
       "AssetKind": "All",
@@ -2057,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/fonts/boxicons/boxicons.ttf"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.woff",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.woff",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/fonts/boxicons/boxicons.woff",
       "AssetKind": "All",
@@ -2074,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/fonts/boxicons/boxicons.woff"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.woff2",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/fonts/boxicons/boxicons.woff2",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/fonts/boxicons/boxicons.woff2",
       "AssetKind": "All",
@@ -2091,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/fonts/boxicons/boxicons.woff2"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/js/bootstrap.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/js/bootstrap.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/js/bootstrap.js",
       "AssetKind": "All",
@@ -2108,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/js/helpers.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/js/helpers.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/js/helpers.js",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/js/helpers.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/js/menu.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/js/menu.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/js/menu.js",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/js/menu.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/apex-charts/apex-charts.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/apex-charts/apex-charts.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/apex-charts/apex-charts.css",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/apex-charts/apex-charts.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/apex-charts/apexcharts.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/apex-charts/apexcharts.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/apex-charts/apexcharts.js",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/apex-charts/apexcharts.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/highlight/highlight-github.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/highlight/highlight-github.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/highlight/highlight-github.css",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/highlight/highlight-github.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/highlight/highlight.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/highlight/highlight.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/highlight/highlight.css",
       "AssetKind": "All",
@@ -2210,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/highlight/highlight.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/highlight/highlight.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/highlight/highlight.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/highlight/highlight.js",
       "AssetKind": "All",
@@ -2227,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/highlight/highlight.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/jquery/jquery.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/jquery/jquery.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/jquery/jquery.js",
       "AssetKind": "All",
@@ -2244,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/jquery/jquery.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/masonry/masonry.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/masonry/masonry.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/masonry/masonry.js",
       "AssetKind": "All",
@@ -2261,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/masonry/masonry.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
       "AssetKind": "All",
@@ -2278,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
       "AssetKind": "All",
@@ -2295,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/assets/vendor/libs/popper/popper.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/assets/vendor/libs/popper/popper.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "assets/vendor/libs/popper/popper.js",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot/assets/vendor/libs/popper/popper.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/css/site.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/css/site.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/favicon.ico",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/favicon.ico",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/js/site.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/js/site.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2431,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2448,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2465,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2482,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2499,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2516,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2533,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2550,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2567,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2584,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2601,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2618,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2635,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2652,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2669,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2686,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2703,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/bootstrap/LICENSE",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/bootstrap/LICENSE",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2720,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2737,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2754,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2771,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2788,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2805,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2822,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2839,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery-validation/LICENSE.md",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2856,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery/dist/jquery.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery/dist/jquery.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2873,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery/dist/jquery.min.js",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2890,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery/dist/jquery.min.map",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2907,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/lib/jquery/LICENSE.txt",
+      "Identity": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/lib/jquery/LICENSE.txt",
       "SourceId": "Gamification.UI",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/wwwroot/",
+      "ContentRoot": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/wwwroot/",
       "BasePath": "_content/Gamification.UI",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/Gamification.UI.csproj": {}
+    "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Gamification.UI.csproj": {}
   },
   "projects": {
-    "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/Gamification.UI.csproj": {
+    "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Gamification.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/Gamification.UI.csproj",
+        "projectUniqueName": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Gamification.UI.csproj",
         "projectName": "Gamification.UI",
-        "projectPath": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/Gamification.UI.csproj",
-        "packagesPath": "/Users/dhruvshah/.nuget/packages/",
-        "outputPath": "/Users/dhruvshah/Desktop/CS682_Updated/Gamification.UI/Gamification.UI/obj/",
+        "projectPath": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Gamification.UI.csproj",
+        "packagesPath": "/Users/someshbalani/.nuget/packages/",
+        "outputPath": "/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dhruvshah/.nuget/NuGet/NuGet.Config"
+          "/Users/someshbalani/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -64,7 +64,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
