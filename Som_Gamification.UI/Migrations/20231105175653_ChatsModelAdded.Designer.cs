@@ -4,14 +4,16 @@ using Gamification.UI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Gamification.UI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231105175653_ChatsModelAdded")]
+    partial class ChatsModelAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -117,9 +119,6 @@ namespace Gamification.UI.Migrations
                     b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsRead")
-                        .HasColumnType("bit");
 
                     b.Property<string>("ReceiverID")
                         .IsRequired()
@@ -400,15 +399,15 @@ namespace Gamification.UI.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c5dbc593-503b-4cba-a610-72dd3684fc65",
+                            ConcurrencyStamp = "bf44655f-0e71-4616-99af-62f63f01eb0b",
                             Email = "admin@localhost.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEINw2q2ASayMZ68JQNfU/iebjUIsqC4Zt340qG4wBFO4gxAz8gGehV5vqwqppJ/RzA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBK8UyF4YPc1NN+FVvLodXPWRtPwirbQS8bUSZsD3Js1cIAtiWCQtRgmReDTMymlig==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b5c29411-ff6f-4958-ad86-d9a5cd15bcb0",
+                            SecurityStamp = "5c97daa8-13b7-4b8c-9915-cfff9aad65ac",
                             TwoFactorEnabled = false,
                             UserName = "admin",
                             ApplicationServer = "e45z.4.ucc.md",
@@ -421,15 +420,15 @@ namespace Gamification.UI.Migrations
                         {
                             Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4e11fc6a-c037-41d4-816b-5d4196bb161c",
+                            ConcurrencyStamp = "cbad97ac-5e9f-4e22-b4aa-8b7c96ef7471",
                             Email = "user@localhost.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@LOCALHOST.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH0HKb/oW6g1TlQUlbKKhH7ARmE+vS10YYIpfZmMhIcZt0P2Nmug6dQYNh80u38kNw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAED1OSGWfgNPXW2okLT8UKmsUhwIbmM+mXUopsZhsxqku/JiH76jvu4ZhAXidFj1JuA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "54141c70-9b99-4cc2-a9fb-47e5d1551a16",
+                            SecurityStamp = "5e5412e9-7b4b-4d79-8086-b5deb435b36f",
                             TwoFactorEnabled = false,
                             UserName = "user",
                             ApplicationServer = "e45z.4.ucc.md",
