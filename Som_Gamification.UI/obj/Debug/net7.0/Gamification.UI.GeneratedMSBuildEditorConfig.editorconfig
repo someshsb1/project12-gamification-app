@@ -60,16 +60,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9SZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Views/Account/UserReport.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNjb3VudC9Vc2VyUmVwb3J0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Views/Home/Badges.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9CYWRnZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Views/Home/CaseStudy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DYXNlU3R1ZHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Views/Home/ChatDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGF0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Views/Home/Chats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DaGF0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/someshbalani/project12-gamification-app/Som_Gamification.UI/Views/Home/Dashboard.cshtml]
