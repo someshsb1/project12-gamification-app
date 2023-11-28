@@ -11,7 +11,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Net.Http;
 using System;
-using Gamification.UI.Hubs;
 
 namespace Gamification.UI
 {
@@ -34,16 +33,16 @@ namespace Gamification.UI
             //services.AddRazorPages();
             services.AddScoped<ITasksServices, TasksService>();
             services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(Configuration.GetValue<string>("APIKey")) });
-            
+
             //services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
             //        .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders().AddDefaultUI();
             // services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders();
 
+            //services.AddScoped<IPasswordValidationService, PasswordValidationService>();
 
 
             services.AddControllersWithViews();
-            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -75,14 +74,6 @@ namespace Gamification.UI
                                     pattern: "{controller=Account}/{action=Login}/{id?}");
                                    // pattern: "{controller=Account}/{action=InitialPage}/{id?}");
                 endpoints.MapRazorPages();
-            });
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapHub<ChatHub>("/chathub"); // Add this line to map your hub
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

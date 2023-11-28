@@ -107,40 +107,6 @@ namespace Gamification.UI.Migrations
                     b.ToTable("LeaderBoaders");
                 });
 
-            modelBuilder.Entity("Gamification.UI.Models.Message", b =>
-                {
-                    b.Property<int>("MessageID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Content")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsRead")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("ReceiverID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("SenderID")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<DateTime>("Timestamp")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("MessageID");
-
-                    b.HasIndex("ReceiverID");
-
-                    b.HasIndex("SenderID");
-
-                    b.ToTable("Messages");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -171,12 +137,14 @@ namespace Gamification.UI.Migrations
                         new
                         {
                             Id = "cac43a6e-f7bb-4448-baaf-1add431ccbbf",
+                            ConcurrencyStamp = "a17d64c5-d3b5-40cd-af2f-04386a783a1a",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
                             Id = "cbc43a8e-f7bb-4445-baaf-1add431ffbbf",
+                            ConcurrencyStamp = "596c46d2-9546-438b-9d82-03ad2002fe7d",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -400,18 +368,18 @@ namespace Gamification.UI.Migrations
                         {
                             Id = "8e445865-a24d-4543-a6c6-9443d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c5dbc593-503b-4cba-a610-72dd3684fc65",
+                            ConcurrencyStamp = "776271d5-eab9-4283-a5c3-5e516fce02fb",
                             Email = "admin@localhost.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@LOCALHOST.COM",
                             NormalizedUserName = "ADMIN",
-                            PasswordHash = "AQAAAAIAAYagAAAAEINw2q2ASayMZ68JQNfU/iebjUIsqC4Zt340qG4wBFO4gxAz8gGehV5vqwqppJ/RzA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEH09C2/lRxNhBw8hKrP8A8o3yzRUXY55+ZFZb3FTayvzbuOP4naWm9lA1gQW47MxUQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b5c29411-ff6f-4958-ad86-d9a5cd15bcb0",
+                            SecurityStamp = "70a3c9ec-46eb-4ad2-9832-d98864db8a12",
                             TwoFactorEnabled = false,
                             UserName = "admin",
-                            ApplicationServer = "e45z.4.ucc.md",
+                            ApplicationServer = "e45z.4.ucc.md/sap",
                             ClientId = 111,
                             FirstName = "System",
                             LastName = "Admin",
@@ -421,18 +389,18 @@ namespace Gamification.UI.Migrations
                         {
                             Id = "9e224968-33e4-4652-b7b7-8574d048cdb9",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "4e11fc6a-c037-41d4-816b-5d4196bb161c",
+                            ConcurrencyStamp = "6ddf598f-57fa-4288-a9f7-9fd0f2f01334",
                             Email = "user@localhost.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "USER@LOCALHOST.COM",
                             NormalizedUserName = "USER",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH0HKb/oW6g1TlQUlbKKhH7ARmE+vS10YYIpfZmMhIcZt0P2Nmug6dQYNh80u38kNw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAECGZC0tB741pd5ISdFhSN2I4SwZfRPZzzaT9pEs8bT0cINboVUTBDAq+7aelAGuqtQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "54141c70-9b99-4cc2-a9fb-47e5d1551a16",
+                            SecurityStamp = "7500f7f6-3504-40f1-b220-133f886b4315",
                             TwoFactorEnabled = false,
                             UserName = "user",
-                            ApplicationServer = "e45z.4.ucc.md",
+                            ApplicationServer = "e45z.4.ucc.md/sap",
                             ClientId = 111,
                             FirstName = "System",
                             LastName = "User",
@@ -456,25 +424,6 @@ namespace Gamification.UI.Migrations
                         .IsRequired();
 
                     b.Navigation("Tasks");
-                });
-
-            modelBuilder.Entity("Gamification.UI.Models.Message", b =>
-                {
-                    b.HasOne("Gamification.UI.Models.ApplicationUser", "Receiver")
-                        .WithMany()
-                        .HasForeignKey("ReceiverID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("Gamification.UI.Models.ApplicationUser", "Sender")
-                        .WithMany()
-                        .HasForeignKey("SenderID")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Receiver");
-
-                    b.Navigation("Sender");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
