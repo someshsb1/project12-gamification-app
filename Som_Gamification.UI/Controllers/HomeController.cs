@@ -14,8 +14,6 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
-using Gamification.UI.Hubs;
-using Microsoft.AspNetCore.SignalR;
 
 namespace Gamification.UI.Controllers
 {
@@ -30,10 +28,8 @@ namespace Gamification.UI.Controllers
         private string _badge { get; set; }
         public string _caseStudy { get; set; }
 
-        private readonly IHubContext<ChatHub> _hubContext;
-
         public HomeController(ILogger<HomeController> logger, ITasksServices tasksServices, HttpClient client,
-            IConfiguration configuration, ApplicationDbContext db, IHubContext<ChatHub> hubContext)
+            IConfiguration configuration, ApplicationDbContext db)
         {
             _tasksServices = tasksServices;
             _client = client;
@@ -41,16 +37,15 @@ namespace Gamification.UI.Controllers
             _db = db;
             //_caseStudy = caseStudy;
             _logger = logger;
-            _hubContext = hubContext;
         }
-        /*
-                public String GetUrl(int clientId, String userId, String applicationServer)
-                {
-                    _caseStudy = "MM";
-                    return $"https://{applicationServer.Trim()}/sap/opu/odata/sap/ZUCC_GBM_GM_SRV/MM_FSet(Id=2,User='{userId.ToUpper().Trim()}')?$format=json&sap-client={clientId}";
-                    //return $"https://{applicationServer.Trim()}/sap/opu/odata/sap/ZUCC_GBM_SRV/MM_FSet(Id=2,User='{userId.ToUpper().Trim()}')?$format=json&sap-client={clientId}";
-                }
-                */
+/*
+        public String GetUrl(int clientId, String userId, String applicationServer)
+        {
+            _caseStudy = "MM";
+            return $"https://{applicationServer.Trim()}/sap/opu/odata/sap/ZUCC_GBM_GM_SRV/MM_FSet(Id=2,User='{userId.ToUpper().Trim()}')?$format=json&sap-client={clientId}";
+            //return $"https://{applicationServer.Trim()}/sap/opu/odata/sap/ZUCC_GBM_SRV/MM_FSet(Id=2,User='{userId.ToUpper().Trim()}')?$format=json&sap-client={clientId}";
+        }
+        */
         public String GetUrl(int clientId = 111, string userId = "LEARN-30", string applicationServer = "e45z.4.ucc.md/sap", string caseStudy = "MM")
         {
             _caseStudy = caseStudy;
@@ -62,8 +57,8 @@ namespace Gamification.UI.Controllers
         {
             return View();
         }
-
-        public async Task<ActionResult> Dashboard(string caseStudy = "MM")
+        
+        public async Task<ActionResult> Dashboard(string caseStudy= "MM")
         {
             try
             {
@@ -349,7 +344,6 @@ namespace Gamification.UI.Controllers
                     _db.LeaderBoaders.Add(records);
                     _db.SaveChanges();
                 }
-
                 return View();
             }
             catch (Exception e)
@@ -381,48 +375,48 @@ namespace Gamification.UI.Controllers
             public string Key { get; set; }
             public string Value { get; set; }
         }
-        /*
-                [HttpPost]
-                public async Task<IActionResult> Index(string username)
-                {
+/*
+        [HttpPost]
+        public async Task<IActionResult> Index(string username)
+        {
 
-                    var p = 0;
-                    var b = 0;
-                    var c = 0;
+            var p = 0;
+            var b = 0;
+            var c = 0;
 
-                    var points = 0;
-                    var data = await _tasksServices.GetResponsePoint(username);
-                    foreach (var item in data)
-                    {
-                        points += item.Score;
-                    }
-                    if (points > 30)
-                    {
-                        p = points;
-                        b = 2;
-                        c = 1;
-                    }
+            var points = 0;
+            var data = await _tasksServices.GetResponsePoint(username);
+            foreach (var item in data)
+            {
+                points += item.Score;
+            }
+            if (points > 30)
+            {
+                p = points;
+                b = 2;
+                c = 1;
+            }
 
-                    else if (points >= 15 && points < 30)
-                    {
-                        p = points;
-                        b = 1;
-                    }
-                    else
-                    {
-                        p = points;
-                    }
+            else if (points >= 15 && points < 30)
+            {
+                p = points;
+                b = 1;
+            }
+            else
+            {
+                p = points;
+            }
 
-                    var dataa = new
-                    {
-                        p,
-                        b,
-                        c
-                    };
+            var dataa = new
+            {
+                p,
+                b,
+                c
+            };
 
-                    return Ok(dataa);
-                }
-        */
+            return Ok(dataa);
+        }
+*/
         public async Task<IActionResult> LeaderBoard(string caseStudy = "MM")
         {
             switch (caseStudy)
@@ -445,8 +439,8 @@ namespace Gamification.UI.Controllers
                 default:
                     break;
             }
-
-
+            
+            
             var data = await _tasksServices.GetLeaders(caseStudy);
             return View(data);
         }
@@ -454,15 +448,12 @@ namespace Gamification.UI.Controllers
         public async Task<IActionResult> Tasks()
         {
             var data = await _tasksServices.GetTasks();
-
             return View(data);
         }
         [HttpPost]
         public async Task<IActionResult> TaskResponse(TasksResponse taskResponse)
-
         {
             var data = await _tasksServices.CreateResponse(taskResponse);
-
             //await Index(taskResponse.RespondantName);
             return Ok(data);
         }
@@ -927,7 +918,6 @@ namespace Gamification.UI.Controllers
 
         public IActionResult Privacy()
         {
-
             return View();
         }
 
@@ -936,129 +926,5 @@ namespace Gamification.UI.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
-
-        public IActionResult Chats()
-        {
-            var userList = _db.ApplicationUsers.ToList();
-
-            var userChatInfo = new List<UserChatInfoViewModel>();
-
-            var currentUser = _db.ApplicationUsers.SingleOrDefault(u => u.UserId == HttpContext.User.Identity.Name);
-
-            foreach (var user in userList)
-            {
-                var latestMessageTimestamp = GetLatestMessageDateTimeForUser(user.Id);
-                var unreadMessageCount = GetUnreadMessageCountForUser(user.Id, currentUser.Id);
-
-                var viewModel = new UserChatInfoViewModel
-                {
-                    UserName = user.UserName,
-                    UserId = user.Id,
-                    LatestMessageTimestamp = latestMessageTimestamp,
-                    UnreadMessageCount = unreadMessageCount
-                };
-
-                userChatInfo.Add(viewModel);
-            }
-            // Sort the userChatInfo list based on the LatestMessageTimestamp
-            userChatInfo = userChatInfo.OrderByDescending(u => u.LatestMessageTimestamp).ToList();
-
-            return View(userChatInfo);
-        }
-
-        // Helper method to get the latest message timestamp for a user
-        private DateTime GetLatestMessageDateTimeForUser(string userId)
-        {
-            var latestSentMessage = _db.Messages
-                .Where(m => m.SenderID == userId)
-                .OrderByDescending(m => m.Timestamp)
-                .FirstOrDefault();
-
-            var latestReceivedMessage = _db.Messages
-                .Where(m => m.ReceiverID == userId)
-                .OrderByDescending(m => m.Timestamp)
-                .FirstOrDefault();
-
-            var latestSentMessageTime = latestSentMessage?.Timestamp ?? DateTime.MinValue;
-            var latestReceivedMessageTime = latestReceivedMessage?.Timestamp ?? DateTime.MinValue;
-
-            // Return the latest of the sent and received messages for the user
-            return latestSentMessageTime > latestReceivedMessageTime ? latestSentMessageTime : latestReceivedMessageTime;
-        }
-
-        private int GetUnreadMessageCountForUser(string senderId, string receiverId)
-        {
-            // Assuming IsRead is a boolean property in the Message entity
-            return _db.Messages.Count(m => m.SenderID == senderId && m.ReceiverID == receiverId && !m.IsRead);
-        }
-
-
-
-        public IActionResult ChatDetails(string receiverId)
-        {
-            var currentUser = _db.ApplicationUsers.SingleOrDefault(u => u.UserId == HttpContext.User.Identity.Name);
-            var receiver = _db.ApplicationUsers.SingleOrDefault(u => u.Id == receiverId);
-
-            // receiver is not found, redirect to chats page
-            if (receiver == null)
-            {
-                return RedirectToAction("Chats"); // Redirect to Chats if the receiver is not found
-            }
-
-
-            var chatMessages = _db.Messages
-                .Where(m => (m.SenderID == currentUser.Id && m.ReceiverID == receiverId) || (m.SenderID == receiverId && m.ReceiverID == currentUser.Id))
-                .OrderByDescending(m => m.Timestamp)
-                .OrderBy(m => m.Timestamp)
-                .ToList();
-
-            // Update messages to isRead = true
-            foreach (var message in chatMessages)
-            {
-                if (message.ReceiverID == currentUser.Id)
-                {
-                    message.IsRead = true;
-                }
-            }
-
-            // Save changes to the database
-            _db.SaveChanges();
-
-            ViewBag.CurrentUserId = currentUser.Id;
-            ViewBag.ReceiverId = receiverId;
-            ViewBag.ReceiverName = receiver.UserId;
-            ViewBag.CurrentName = currentUser.UserId;
-
-            return View(chatMessages);
-        }
-
-
-        [HttpPost]
-        public async Task<IActionResult> SendMessage([FromBody] Message messageData)
-        {
-            try
-            {
-                // Save the message to your database asynchronously
-                _db.Messages.Add(messageData);
-                await _db.SaveChangesAsync();
-
-
-
-                await _hubContext.Clients.User(messageData.ReceiverID).SendAsync("ReceiveMessage", messageData);
-
-                return Ok("Message sent successfully");
-
-
-            }
-            catch (Exception e)
-            {
-                // Log the exception for debugging purposes
-                // You might want to log the exception details to a logging system
-                // Log.Error(e, "Error sending message");
-
-                return BadRequest("Failed to send message");
-            }
-        }
-
     }
 }
