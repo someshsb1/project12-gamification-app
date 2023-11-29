@@ -1,4 +1,4 @@
-﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
   @inject UserManager<IdentityUser> UserManager
     @using System.Text.RegularExpressions;
@@ -128,7 +128,15 @@
             <div data-i18n="Without menu">Badges</div>
           </a>
         </li>
+        <li class="menu-item">
+	<a asp-controller="Home" asp-action="Chats"  class="menu-link">
+                <i class="menu-icon tf-icons bx bx-chat"></i>
+                <div data-i18n="Without menu">Chats</div>
+            </a>
+        </li>
         }
+            // if user is admin, then we need a a sub menu list
+            @if (User.IsInRole("Admin")) {
         <li class="menu-item">
           <a href="javascript:void(0);" class="menu-link menu-toggle">
             <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
@@ -161,9 +169,19 @@
                 <div data-i18n="Basic">Reset Password</div>
               </a>
             </li>
+                    </ul>
+                </li>
             }
-          </ul>
-        </li>
+
+            // if user is admin, then we just need the reset password
+            @if (User.IsInRole("User")) {
+                <li class="menu-item">
+                    <a asp-controller="Account" asp-action="ResetPassword" class="menu-link">
+                        <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                        <div data-i18n="Basic">Reset Password</div>
+                    </a>
+                </li>
+            }
         @if (User.IsInRole("Admin") || User.IsInRole("User"))
         {
         <li class="menu-item">
@@ -175,7 +193,7 @@
           </form>
         </li>
         }
-
+        }
         }
         
 
