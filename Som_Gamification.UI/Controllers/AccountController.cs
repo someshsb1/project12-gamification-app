@@ -209,10 +209,10 @@
                 Username = $"LEARN-{i:000}",
                 //UserId = $"LEARN-{i:000}",
                 Password = $"Password@{i:000}",
-                Email = $"user{i:000}@example.com",
-                Name = $"User {i:000}",
+                //Email = $"user{i:000}@example.com",
+                Name = $"LEARN-{i:000}",
                 ClientId = 101,
-                ApplicationServer = "trek.ucc.uwm.edu"
+                //ApplicationServer = "trek.ucc.uwm.edu"
             };
 
             // Create the user
