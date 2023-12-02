@@ -1,9 +1,9 @@
 ﻿@model Gamification.UI.Models.SapViewModel
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
-  @if (User.IsInRole("User"))
-  {
-<div class="row">
+@if (User.IsInRole("User"))
+{
+    <div class="row">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECPJX21DQD"></script>
     <script>
@@ -73,142 +73,141 @@
                             You have completed <span class="fw-bold"></span><span id="fulFillment" class="text-primary"><strong>
                             @ViewBag.Fulfillment</strong></span><strong><span class="text-primary">%</span></strong> of the <strong><span id="process" class="text-primary"></span></strong>!
                             @if (ViewBag.Fulfillment < 100)
-                         {
-                             <span>Continue the steps to earn more points and badges.</span>
-                         }      
-                        </p>
-                        <a href="javascript:;" class="btn btn-sm btn-outline-primary">Back to SAP</a>
+                                    {
+                                     <span>Continue the steps to earn more points and badges.</span>
+                                    }      
+                            </p>
+                            <a href="javascript:;" class="btn btn-sm btn-outline-primary">Back to SAP</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-5 text-center text-sm-left">
-                    <div class="card-body pb-0 px-0 px-md-4">
-                        <img src="../assets/img/illustrations/man-with-laptop-light.png" height="140" alt="View Badge User" data-app-dark-img="illustrations/man-with-laptop-dark.png" data-app-light-img="illustrations/man-with-laptop-light.png" />
+                    <div class="col-sm-5 text-center text-sm-left">
+                        <div class="card-body pb-0 px-0 px-md-4">
+                            <img src="../assets/img/illustrations/man-with-laptop-light.png" height="140" alt="View Badge User" data-app-dark-img="illustrations/man-with-laptop-dark.png" data-app-light-img="illustrations/man-with-laptop-light.png" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Cards for Points, Levels, Medals, and Badges -->
-    <div class="col-lg-4 col-md-4 order-1">
-        <div class="row">
-            <!-- Points Card -->
-            <div class="col-md-6 mb-4">
-                <div class="card h-100" style="max-width: 200px; max-height: 135px;">
-                    <div class="card-body text-center d-flex flex-column align-items-center">
-                        <div class="avatar flex-shrink-0 mb-3">
-                            <span class="badge bg-label-info p-2">
-                                <i class="bx bxs-star-half text-primary bx-md"></i>
-                            </span>
-                        </div>
-                        <div class="ms-3">
-                            <span class="d-block mb-1">Points</span>
-                            <h3 class="card-title mb-2 text-wrap">
-                                <span id="pPoints" class="text-break d-inline-block" style="max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: 22px; white-space: normal;">@ViewBag.Point</span>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- Levels Card -->
-            <div class="col-md-6 mb-4">
-                <div class="card h-100" style="max-width: 200px; max-height: 135px;">
-                    <div class="card-body text-center d-flex flex-column align-items-center">
-                        <div class="avatar flex-shrink-0 mb-3">
-                            <span class="badge bg-label-info p-2">
-                                <i class="bx bxs-crown text-warning bx-md"></i>
-                            </span>
-                        </div>
-                        <div class="ms-3">
-                            <span class="d-block mb-1">Levels</span>
-                            <h3 class="card-title mb-2 text-wrap">
-                                <span id="pLevels" class="text-break d-inline-block" style="max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: 22px; white-space: normal;">@ViewBag.Levels</span>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- Medals Card -->
-            <div class="col-md-6 mb-4">
-                <div class="card h-100" style="max-width: 200px; max-height: 160px;">
-                    <div class="card-body text-center d-flex flex-column align-items-center">
-                        <div class="avatar flex-shrink-0 mb-3">
-                            <span class="badge bg-label-info p-2">
-                                <i class="bx bx-medal text-info bx-md"></i>
-                            </span>
-                        </div>
-                        <div class="ms-3">
-                            <span class="fw-semibold d-block mb-1">Medals</span>
-                            <h3 class="card-title mb-2 text-wrap">
-                                <span id="pMedals" class="text-break d-inline-block" style="max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: normal; font-size: 22px">0</span>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- Badges Card -->
-            <div class="col-md-6 mb-4">
-                <div class="card h-100" style="max-width: 200px; max-height: 160px;">
-                    <div class="card-body text-center d-flex flex-column align-items-center">
-                        <div class="avatar flex-shrink-0 mb-3">
-                            @if (ViewBag.Badge == "FI Badge")
-                            {
+        <!-- Cards for Points, Levels, Medals, and Badges -->
+        <div class="col-lg-4 col-md-4 order-0">
+            <div class="row">
+                <!-- Points Card -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100" style="max-width: 200px; max-height: 135px;">
+                        <div class="card-body text-center d-flex flex-column align-items-center">
+                            <div class="avatar flex-shrink-0 mb-3">
                                 <span class="badge bg-label-info p-2">
-                                    <img src="FI" alt="Gold Badge" class="badge-icon" />
+                                    <i class="bx bxs-star-half text-primary bx-md"></i>
                                 </span>
-                            }
+                            </div>
+                            <div class="ms-3">
+                                <span class="d-block mb-1">Points</span>
+                                <h3 class="card-title mb-2 text-wrap">
+                                    <span id="pPoints" class="text-break d-inline-block" style="max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: 22px; white-space: normal;">@ViewBag.Point</span>
+                                </h3>
+                            </div>
                         </div>
-                        <div class="ms-3 text-center">
-                            <span class="d-block mb-1 fs-6 fs-md-5 fs-lg-4">Badges</span>
-                            <h5 class="card-title text-wrap mb-2 p-2 fs-5 fs-md-4 fs-lg-3">
-                                <span id="pBadges" class="fs-5 fs-md-4 fs-lg-3" style="white-space: normal; font-size: 22px">@ViewBag.Badge</span>
-                            </h5>
+                    </div>
+                </div>
+
+
+
+                <!-- Levels Card -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100" style="max-width: 200px; max-height: 135px;">
+                        <div class="card-body text-center d-flex flex-column align-items-center">
+                            <div class="avatar flex-shrink-0 mb-3">
+                                <span class="badge bg-label-info p-2">
+                                    <i class="bx bxs-crown text-warning bx-md"></i>
+                                </span>
+                            </div>
+                            <div class="ms-3">
+                                <span class="d-block mb-1">Levels</span>
+                                <h3 class="card-title mb-2 text-wrap">
+                                    <span id="pLevels" class="text-break d-inline-block" style="max-width: 100%; overflow: hidden; text-overflow: ellipsis; font-size: 22px; white-space: normal;">@ViewBag.Levels</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Medals Card -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100" style="max-width: 200px; max-height: 160px;">
+                        <div class="card-body text-center d-flex flex-column align-items-center">
+                            <div class="avatar flex-shrink-0 mb-3">
+                                <span class="badge bg-label-info p-2">
+                                    <i class="bx bx-medal text-info bx-md"></i>
+                                </span>
+                            </div>
+                            <div class="ms-3">
+                                <span class="fw-semibold d-block mb-1">Medals</span>
+                                <h3 class="card-title mb-2 text-wrap">
+                                    <span id="pMedals" class="text-break d-inline-block" style="max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: normal; font-size: 22px">0</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Badges Card -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100" style="max-width: 200px; max-height: 160px;">
+                        <div class="card-body text-center d-flex flex-column align-items-center">
+                            <div class="avatar flex-shrink-0 mb-3">
+                                    @if (ViewBag.Badge == "FI Badge")
+                                    {
+                                        <span class="badge bg-label-info p-2">
+                                            <img src="FI" alt="Gold Badge" class="badge-icon" />
+                                        </span>
+                                    }
+                            </div>
+                            <div class="ms-3 text-center">
+                                <span class="d-block mb-1 fs-6 fs-md-5 fs-lg-4">Badges</span>
+                                <h5 class="card-title text-wrap mb-2 p-2 fs-5 fs-md-4 fs-lg-3">
+                                    <span id="pBadges" class="fs-5 fs-md-4 fs-lg-3" style="white-space: normal; font-size: 22px">@ViewBag.Badge</span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <!-- Steps Report Card (Right Side) -->
+    </div>
+
+
+    <div class="row">
+        <!-- Growth Chart Card -->
+        <div class="col-lg-8 md-4">
+            <div class="card">
+                <div class="row row-bordered g-0">
+                    <div class="col-md-8">
+                        <h5 class="card-header m-0 me-2 pb-3">Score</h5>
+                        <div id="charts" class="px-2"></div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card-body"></div>
+                        <div id="growthChart"></div>
+                        <div class="d-flex flex-column align-items-center mt-4">
+                            <span class="badge bg-label-warning rounded-pill mb-2">Total steps <span>@ViewBag.StepsCount</span></span>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
         </div>
-    </div>
 
-    <!-- Steps Report Card (Right Side) -->
-    <!-- ... (@**@ or any other code you have for the right side) ... -->
-</div>
-
-
-<div class="row">
-    <!-- Growth Chart Card -->
-    <div class="col-md-6 mb-4">
-        <div class="card">
-            <div class="row row-bordered g-0">
-                <div class="col-md-8">
-                    <h5 class="card-header m-0 me-2 pb-3">Score</h5>
-                    <div id="charts" class="px-2"></div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card-body"></div>
-                    <div id="growthChart"></div>
-                    <div class="d-flex flex-column align-items-center mt-4">
-                        <span class="badge bg-label-warning rounded-pill mb-2">Total steps <span>@ViewBag.StepsCount</span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    @*<!-- Steps Report Card -->
+            @*<!-- Steps Report Card -->
     <div class="col-lg-4 col-md-4 order-last">
         <div class="row">
             <div class="col-12 mb-4">
@@ -227,46 +226,46 @@
             </div>
         </div>
     </div>*@
-</div>
+    </div>
 
 
-</div>
+    </div>
 
-  }
-  else
-  {
-  <div class="row">
-    <div class="col-sm-12">
-      <div class="alert alert-custom alert-outline-primary fade show mb-5" role="alert">
-        <div class="alert-icon"><i class="flaticon-warning"></i></div>
-        <div class="alert-text">
-          <marquee>Welcome @User.Identity.Name</marquee>
-        </div>
-        @* <div class="alert-close">
+}
+else
+{
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="alert alert-custom alert-outline-primary fade show mb-5" role="alert">
+            <div class="alert-icon"><i class="flaticon-warning"></i></div>
+            <div class="alert-text">
+              <marquee>Welcome @User.Identity.Name</marquee>
+            </div>
+                @* <div class="alert-close">
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true"><i class="ki ki-close"></i></span>
           </button>
         </div>*@
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-  }
+}
 
-  @section scripts{
-  <partial name="_ValidationScriptsPartial" />
-  <script type="text/javascript">
-    $("#process").text(returnProcess(firstValue)); //for case study name change on congratulation card
-    localStorage.clear();
-    $(document).ready(function() {
-      setData($("#pPoints").text(), $("#pLevels").text(), $("#pBadges").text());
-      var steps = '@Html.Raw(Json.Serialize(ViewBag.StepsList))';
-      var points = '@Html.Raw(Json.Serialize(ViewBag.PointsList))';
-      var pointsArray = JSON.parse(points);
-      var stepsArray = JSON.parse(steps);
-      plotGraph(pointsArray, stepsArray);
-    });
-    $(window).on("load", function() {
-      showStoredData();
-    });
-  </script>
-  }
+@section scripts {
+      <partial name="_ValidationScriptsPartial" />
+      <script type="text/javascript">
+        $("#process").text(returnProcess(firstValue)); //for case study name change on congratulation card
+        localStorage.clear();
+        $(document).ready(function() {
+          setData($("#pPoints").text(), $("#pLevels").text(), $("#pBadges").text());
+          var steps = '@Html.Raw(Json.Serialize(ViewBag.StepsList))';
+          var points = '@Html.Raw(Json.Serialize(ViewBag.PointsList))';
+          var pointsArray = JSON.parse(points);
+          var stepsArray = JSON.parse(steps);
+          plotGraph(pointsArray, stepsArray);
+        });
+        $(window).on("load", function() {
+          showStoredData();
+        });
+      </script>
+}

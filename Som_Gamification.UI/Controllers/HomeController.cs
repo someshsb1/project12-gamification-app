@@ -38,14 +38,14 @@ namespace Gamification.UI.Controllers
             //_caseStudy = caseStudy;
             _logger = logger;
         }
-/*
-        public String GetUrl(int clientId, String userId, String applicationServer)
-        {
-            _caseStudy = "MM";
-            return $"https://{applicationServer.Trim()}/sap/opu/odata/sap/ZUCC_GBM_GM_SRV/MM_FSet(Id=2,User='{userId.ToUpper().Trim()}')?$format=json&sap-client={clientId}";
-            //return $"https://{applicationServer.Trim()}/sap/opu/odata/sap/ZUCC_GBM_SRV/MM_FSet(Id=2,User='{userId.ToUpper().Trim()}')?$format=json&sap-client={clientId}";
-        }
-        */
+        /*
+                public String GetUrl(int clientId, String userId, String applicationServer)
+                {
+                    _caseStudy = "MM";
+                    return $"https://{applicationServer.Trim()}/sap/opu/odata/sap/ZUCC_GBM_GM_SRV/MM_FSet(Id=2,User='{userId.ToUpper().Trim()}')?$format=json&sap-client={clientId}";
+                    //return $"https://{applicationServer.Trim()}/sap/opu/odata/sap/ZUCC_GBM_SRV/MM_FSet(Id=2,User='{userId.ToUpper().Trim()}')?$format=json&sap-client={clientId}";
+                }
+                */
         public String GetUrl(int clientId = 111, string userId = "LEARN-30", string applicationServer = "e45z.4.ucc.md/sap", string caseStudy = "MM")
         {
             _caseStudy = caseStudy;
@@ -57,20 +57,20 @@ namespace Gamification.UI.Controllers
         {
             return View();
         }
-        
-        public async Task<ActionResult> Dashboard(string caseStudy= "MM")
+
+        public async Task<ActionResult> Dashboard(string caseStudy = "MM")
         {
             try
             {
-                //delete all the records in the leaderboard
-                 var rows = from o in _db.LeaderBoaders
-                            select o;
-                 foreach (var row in rows)
-                 {
-                     _db.LeaderBoaders.Remove(row);
-                 }
-                 _db.SaveChanges();
-                
+                // Delete all the records in the leaderboard, COMMENTED THIS OUT AS DISCUSSED WITH PROFESSOR.
+                // var rows = from o in _db.LeaderBoaders
+                //            select o;
+                // foreach (var row in rows)
+                // {
+                //     _db.LeaderBoaders.Remove(row);
+                // }
+                // _db.SaveChanges();
+
                 var userInfo = new ApplicationUser();
 
                 var userList = _db.ApplicationUsers.ToList().Where(q => q.UserId == HttpContext.User.Identity.Name.ToUpper());
@@ -86,14 +86,13 @@ namespace Gamification.UI.Controllers
                 var userName = "TEACH-003";
                 var passwd = "Naqiya99";
 
-                //var url = GetUrl(userInfo.ClientId, userInfo.UserId, userInfo.ApplicationServer);
                 var url = GetUrl(userInfo.ClientId, userInfo.UserId, userInfo.ApplicationServer, caseStudy);
 
-                // use this handler to allow untrusted SSL Certificates
+                // Use this handler to allow untrusted SSL Certificates
                 var handler = new HttpClientHandler();
                 handler.ClientCertificateOptions = ClientCertificateOption.Manual;
                 handler.ServerCertificateCustomValidationCallback =
-                    (httpRequestMessage, cert, cetChain, policyErrors) =>
+                    (httpRequestMessage, cert, certChain, policyErrors) =>
                     {
                         return true;
                     };
@@ -108,20 +107,24 @@ namespace Gamification.UI.Controllers
 
                 var content = await result.Content.ReadAsStringAsync();
 
-
                 var dictionaryList = new List<DictionaryModel>();
                 var jObject = JObject.Parse(content);
                 var jToken = jObject["d"];
 
+                var PointsDictionary = new Dictionary<string, int>()
+        {
+            {"@08@10", 10},
+            {"@09@7", 8},
+            {"@0A@5", 7 },
+            {"@0A@", 7 },
+            {"0", 0}
+        };
 
-                var PiontsDictionary = new Dictionary<string, int>()
-            {
-                {"@08@10", 10},
-                {"@09@7", 8},
-                {"@0A@5", 7 },
-                {"@0A@", 7 },
-                {"0", 0}
-            };
+                // Initialize fulfill to "0" by default
+                string fulfill = "0";
+
+                // Dictionary to track whether at least one step has been completed for each StepsCount
+                Dictionary<string, bool> stepsCompletedDictionary = new Dictionary<string, bool>();
 
                 foreach (var property in jToken.Children<JProperty>())
                 {
@@ -136,7 +139,6 @@ namespace Gamification.UI.Controllers
                 // Get points for that specific learn id
                 int point = 0;
                 int level = 0;
-                string fulfill = "";
                 string badge = "";
                 List<int> Points = new List<int>();
                 List<string> Steps = new List<string>();
@@ -144,8 +146,19 @@ namespace Gamification.UI.Controllers
                 {
                     if (item.Key.Contains("Step"))
                     {
-                        Points.Add(PiontsDictionary[item.Value]);
+                        Points.Add(PointsDictionary[item.Value]);
                         Steps.Add(item.Key);
+
+                        // Check if the step value is not "0"
+                        if (item.Value != "0")
+                        {
+                            fulfill = "100";
+                            stepsCompletedDictionary[item.Key] = true;
+                        }
+                        else
+                        {
+                            stepsCompletedDictionary[item.Key] = false;
+                        }
                     }
 
                     if (item.Key.Equals("FulfillmentAll"))
@@ -167,10 +180,16 @@ namespace Gamification.UI.Controllers
                     }
                 }
 
-                // ful
-                string aa = fulfill.Remove(fulfill.IndexOf('%'));
+                // Check if at least one step has been completed for each StepsCount
+                if (stepsCompletedDictionary.All(entry => entry.Value))
+                {
+                    fulfill = "100";
+                }
+
+                //ful, remove "%" if exists in the string.
+                string aa = fulfill.Contains("%") ? fulfill.Remove(fulfill.IndexOf('%')) : fulfill;
                 ViewBag.Fulfillment = int.Parse(aa);
-                //ViewBag.Point = Points.Sum();
+
                 ViewBag.Point = point;
                 ViewBag.Levels = level;
                 ViewBag.Badge = badge;
@@ -178,8 +197,6 @@ namespace Gamification.UI.Controllers
                 ViewBag.PointsList = Points;
                 ViewBag.StepsList = Steps;
                 ViewBag.StepsCount = Steps.Count;
-
-
 
                 var existingRecord = _db.LeaderBoaders.SingleOrDefault(m => m.Username == userInfo.UserId && m.CaseStudy == _caseStudy);
 
@@ -194,7 +211,6 @@ namespace Gamification.UI.Controllers
                     // If the record doesn't exist, create it
                     var records = new LeaderBoader()
                     {
-                        //CaseStudy = "FI_AR",
                         CaseStudy = _caseStudy,
                         Username = userInfo.UserId,
                         Point = point
@@ -205,8 +221,6 @@ namespace Gamification.UI.Controllers
                     _db.SaveChanges();
                 }
 
-                //	await _db.SaveChangesAsync();
-
                 return View();
             }
             catch (Exception e)
@@ -215,6 +229,7 @@ namespace Gamification.UI.Controllers
                 throw;
             }
         }
+
         public async Task<ActionResult> CaseStudy(string caseStudy)
         {
             try
@@ -375,48 +390,48 @@ namespace Gamification.UI.Controllers
             public string Key { get; set; }
             public string Value { get; set; }
         }
-/*
-        [HttpPost]
-        public async Task<IActionResult> Index(string username)
-        {
+        /*
+                [HttpPost]
+                public async Task<IActionResult> Index(string username)
+                {
 
-            var p = 0;
-            var b = 0;
-            var c = 0;
+                    var p = 0;
+                    var b = 0;
+                    var c = 0;
 
-            var points = 0;
-            var data = await _tasksServices.GetResponsePoint(username);
-            foreach (var item in data)
-            {
-                points += item.Score;
-            }
-            if (points > 30)
-            {
-                p = points;
-                b = 2;
-                c = 1;
-            }
+                    var points = 0;
+                    var data = await _tasksServices.GetResponsePoint(username);
+                    foreach (var item in data)
+                    {
+                        points += item.Score;
+                    }
+                    if (points > 30)
+                    {
+                        p = points;
+                        b = 2;
+                        c = 1;
+                    }
 
-            else if (points >= 15 && points < 30)
-            {
-                p = points;
-                b = 1;
-            }
-            else
-            {
-                p = points;
-            }
+                    else if (points >= 15 && points < 30)
+                    {
+                        p = points;
+                        b = 1;
+                    }
+                    else
+                    {
+                        p = points;
+                    }
 
-            var dataa = new
-            {
-                p,
-                b,
-                c
-            };
+                    var dataa = new
+                    {
+                        p,
+                        b,
+                        c
+                    };
 
-            return Ok(dataa);
-        }
-*/
+                    return Ok(dataa);
+                }
+        */
         public async Task<IActionResult> LeaderBoard(string caseStudy = "MM")
         {
             switch (caseStudy)
@@ -439,8 +454,8 @@ namespace Gamification.UI.Controllers
                 default:
                     break;
             }
-            
-            
+
+
             var data = await _tasksServices.GetLeaders(caseStudy);
             return View(data);
         }
@@ -488,9 +503,11 @@ namespace Gamification.UI.Controllers
             }
             var data = await getBatch(caseStudy);
             var badge = new List<Badges>();
-            switch (caseStudy){
+            switch (caseStudy)
+            {
                 case "PP":
-                    if (data.Contains("Login")){
+                    if (data.Contains("Login"))
+                    {
                         badge.Add(new Badges()
                         {
                             Badge = "Login"
@@ -502,7 +519,7 @@ namespace Gamification.UI.Controllers
                         {
                             Badge = "Master"
                         });
-                            badge.Add(new Badges()
+                        badge.Add(new Badges()
                         {
                             Badge = "Login"
                         });
@@ -558,7 +575,8 @@ namespace Gamification.UI.Controllers
                     break;
 
                 case "SD":
-                    if (data.Contains("Login")){
+                    if (data.Contains("Login"))
+                    {
                         badge.Add(new Badges()
                         {
                             Badge = "Login"
@@ -570,7 +588,7 @@ namespace Gamification.UI.Controllers
                         {
                             Badge = "Master"
                         });
-                            badge.Add(new Badges()
+                        badge.Add(new Badges()
                         {
                             Badge = "Login"
                         });
@@ -625,7 +643,8 @@ namespace Gamification.UI.Controllers
                     }
                     break;
                 case "FI_AR":
-                    if (data.Contains("Login")){
+                    if (data.Contains("Login"))
+                    {
                         badge.Add(new Badges()
                         {
                             Badge = "Login"
@@ -637,7 +656,7 @@ namespace Gamification.UI.Controllers
                         {
                             Badge = "Master"
                         });
-                            badge.Add(new Badges()
+                        badge.Add(new Badges()
                         {
                             Badge = "Login"
                         });
@@ -692,7 +711,8 @@ namespace Gamification.UI.Controllers
                     }
                     break;
                 case "FI":
-                    if (data.Contains("Login")){
+                    if (data.Contains("Login"))
+                    {
                         badge.Add(new Badges()
                         {
                             Badge = "Login"
@@ -704,7 +724,7 @@ namespace Gamification.UI.Controllers
                         {
                             Badge = "Master"
                         });
-                            badge.Add(new Badges()
+                        badge.Add(new Badges()
                         {
                             Badge = "Login"
                         });
@@ -756,7 +776,7 @@ namespace Gamification.UI.Controllers
                         });
                         badge.Add(new Badges() { Badge = "Invoice" });
                         badge.Add(new Badges() { Badge = "Payment" });
-                    }   
+                    }
                     break;
                 default:
                     if (data.Contains("Login"))
@@ -772,7 +792,7 @@ namespace Gamification.UI.Controllers
                         {
                             Badge = "Master"
                         });
-                            badge.Add(new Badges()
+                        badge.Add(new Badges()
                         {
                             Badge = "Login"
                         });
@@ -827,7 +847,7 @@ namespace Gamification.UI.Controllers
                     }
                     break;
             }
-            
+
             return View(badge);
         }
 
