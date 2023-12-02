@@ -1,4 +1,4 @@
-﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 @using System.Text.RegularExpressions;
@@ -11,7 +11,7 @@
      {
         <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
     <div class="app-brand demo">
-        <a href="index.html" class="app-brand-link">
+        <a href="Index" class="app-brand-link">
             <span class="app-brand-logo demo">
                 <svg width="50"
                      viewBox="0 0 25 42"
@@ -94,7 +94,7 @@
                         <div data-i18n="Without menu">Task</div>
                     </a>
                 </li>*@
-                <li class="menu-item">
+                @* <li class="menu-item">
                     <a href="javascript:void(0);" class="menu-link menu-toggle">
                         <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
                         <div data-i18n="Authentications">Case Studies</div>
@@ -131,24 +131,29 @@
                         }
 
                     </ul>
-                </li>
+                </li> *@
                 <li class="menu-item">
                     <a asp-controller="Home" asp-action="Badges"  class="menu-link">
                         <i class="menu-icon tf-icons bx bx-task"></i>
                         <div data-i18n="Without menu">Badges</div>
                     </a>
                 </li>
+                @* <li class="menu-item">
+                    <a asp-controller="Home" asp-action="Chats"  class="menu-link">
+                        <i class="menu-icon tf-icons bx bx-chat"></i>
+                        <div data-i18n="Without menu">Chats</div>
+                    </a>
+                </li> *@
             }
-            <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                    <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
-                    <div data-i18n="Authentications">Authentications</div>
-                </a>
-                <ul class="menu-sub">
 
-
-                    @if (User.IsInRole("Admin"))
-                    {
+            // if user is admin, then we need a a sub menu list
+            @if (User.IsInRole("Admin")) {
+                <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                        <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                        <div data-i18n="Authentications">Authentications</div>
+                    </a>
+                    <ul class="menu-sub">
                         <li class="menu-item">
                             <a asp-controller="Account" asp-action="Register" class="menu-link">
                                 <div data-i18n="Basic">Register</div>
@@ -164,17 +169,28 @@
                                 <div data-i18n="Basic">Roles</div>
                             </a>
                         </li>
-                    }
-                    @if (User.IsInRole("Admin") || User.IsInRole("User"))
-                    {
+
                         <li class="menu-item">
                             <a asp-controller="Account" asp-action="ResetPassword" class="menu-link">
                                 <div data-i18n="Basic">Reset Password</div>
                             </a>
                         </li>
-                    }
-                </ul>
-            </li>
+                    </ul>
+                </li>
+            }
+
+            // if user is admin, then we just need the reset password
+            @if (User.IsInRole("User")) {
+                <li class="menu-item">
+                    <a asp-controller="Account" asp-action="ResetPassword" class="menu-link">
+                        <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                        <div data-i18n="Basic">Reset Password</div>
+                    </a>
+                </li>
+            }
+
+            
+            
             @if (User.IsInRole("Admin") || User.IsInRole("User"))
             {
                 <li class="menu-item">
@@ -187,7 +203,7 @@
                 </li>
             }
         
-        }
+        
         }
 
     </ul>

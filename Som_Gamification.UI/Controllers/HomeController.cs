@@ -587,7 +587,7 @@ namespace Gamification.UI.Controllers
                         });
                         badge.Add(new Badges()
                         {
-                            Badge = "Quotation"
+                            Badge = "Quotations"
                         });
                     }
                     else if (data.Contains("Sales"))
