@@ -78,7 +78,7 @@ namespace Gamification.UI.Services.Implementations
 
 		public async Task<IEnumerable<LeaderBoader>> GetLeaders(string caseStudy)
 		{
-			var data = await _db.LeaderBoaders.OrderByDescending(s => s.Point).Where(c=>c.CaseStudy == caseStudy).ToListAsync();
+			var data = await _db.LeaderBoaders.OrderByDescending(s => s.Point).Where(c => c.CaseStudy == caseStudy).ToListAsync();
 			return data;
 		}
 

@@ -9,7 +9,7 @@ namespace Gamification.UI.Models
     {
         [Required]
         public string Username { get; set; }
-        
+
         [Required]
         public string Name { get; set; }
 

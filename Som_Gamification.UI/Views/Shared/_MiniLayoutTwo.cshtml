@@ -41,7 +41,7 @@
     <link rel="stylesheet" href="~/assets/vendor/libs/apex-charts/apex-charts.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
-    
+
 
     <!-- Page CSS -->
 
@@ -59,14 +59,14 @@
       <div class="layout-container">
         <!-- Menu -->
 
-        @await Html.PartialAsync("_AsideView")
+      @await Html.PartialAsync("_AsideView")
         <!-- / Menu -->
 
         <!-- Layout container -->
         <div class="layout-page">
           <!-- Navbar -->
-          @*@await Html.PartialAsync("_NavBarView")*@
-          
+        @*@await Html.PartialAsync("_NavBarView")*@
+
 
           <!-- / Navbar -->
 
@@ -75,13 +75,13 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-             @RenderBody()
+            @RenderBody()
             </div>
             <!-- / Content -->
 
             <!-- Footer -->
-            @await Html.PartialAsync("_FooterView")
-            
+          @await Html.PartialAsync("_FooterView")
+
             <!-- / Footer -->
 
             <div class="content-backdrop fade"></div>
@@ -95,7 +95,7 @@
       <div class="layout-overlay layout-menu-toggle"></div>
     </div>
     <!-- / Layout wrapper -->
-@*
+  @*
     <div class="buy-now">
         <a href="https://themeselection.com/products/sneat-bootstrap-html-admin-template/"
            target="_blank"
@@ -105,14 +105,14 @@
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
   @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>*@
-  
+
     <script src="~/assets/vendor/libs/jquery/jquery.js"></script>
     <script src="~/assets/vendor/libs/popper/popper.js"></script>
     <script src="~/assets/vendor/js/bootstrap.js"></script>
   <script src="~/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-    @*<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>*@
+  @*<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>*@
 
 
     <script src="~/assets/vendor/js/menu.js"></script>
@@ -131,6 +131,6 @@
     <!-- Place this tag in your head or just before your close body tag. -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-     @await RenderSectionAsync("Scripts", required: false)
+  @await RenderSectionAsync("Scripts", required: false)
   </body>
 </html>

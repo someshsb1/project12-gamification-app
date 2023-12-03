@@ -434,6 +434,7 @@ namespace Gamification.UI.Controllers
         */
         public async Task<IActionResult> LeaderBoard(string caseStudy = "MM")
         {
+            
             switch (caseStudy)
             {
                 case "FI":

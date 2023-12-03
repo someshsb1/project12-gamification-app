@@ -12,7 +12,7 @@ namespace PracticeHttpClient
 			Task t = new Task(HttpGetPractice.HRequestAsync);
 			t.Start();
 			Console.ReadLine();
-        }
+		}
 
 		static async void HTTP_GET()
 		{
@@ -58,6 +58,6 @@ namespace PracticeHttpClient
 			}
 		}
 
-    }
+	}
 
 }

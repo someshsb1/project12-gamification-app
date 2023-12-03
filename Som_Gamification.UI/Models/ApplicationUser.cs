@@ -21,7 +21,7 @@ namespace Gamification.UI.Models
 
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
-        public string Name { get; set; } 
+        public string Name { get; set; }
         [NotMapped]
         public string RoleId { get; set; }
         [NotMapped]

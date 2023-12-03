@@ -26,10 +26,10 @@
     }
 
 </div>
-@section scripts{
+@section scripts {
     <partial name="_ValidationScriptsPartial" />
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             var badges = localStorage.getItem("badges");
             var crown = localStorage.getItem("crown");
             var point = localStorage.getItem("point");
@@ -41,66 +41,66 @@
 
             $(document).on('click',
                 '.complete',
-                function() {
+                function () {
                     var data = $(this).attr('id');
                     //alert(data);
 
                     var user = localStorage.getItem("stat");
-                   // alert(user);
+                    // alert(user);
                     var taskResponse = {
                         TasksId: parseInt(data),
                         RespondantName: user,
                         Score: 5,
                         IsComplete: true
                     };
-                   // console.log(taskResponse);
+                    // console.log(taskResponse);
 
                     $.ajax({
                         url: 'TaskResponse',
                         method: 'POST',
                         data: taskResponse,
-                        success: function(data) {
+                        success: function (data) {
                             console.log(data);
                             // $('#point').text(data.points);
-                           // window.location.reload();
+                            // window.location.reload();
                             window.location.href = '/Home/Index';
                         }
                     });
 
                 });
 
-                //$(document).on('dblclick',
-                //'.complete',
-                //function() {
-                //    var data = $(this).attr('id');
-                //    //alert(data);
+            //$(document).on('dblclick',
+            //'.complete',
+            //function() {
+            //    var data = $(this).attr('id');
+            //    //alert(data);
 
-                //    var user = localStorage.getItem("stat");
-                //    //alert(user);
-                //    var taskResponse = {
-                //        TasksId: parseInt(data),
-                //        RespondantName: user,
-                //        Score: 10,
-                //        IsComplete: true
-                //    };
-                //    console.log(taskResponse);
+            //    var user = localStorage.getItem("stat");
+            //    //alert(user);
+            //    var taskResponse = {
+            //        TasksId: parseInt(data),
+            //        RespondantName: user,
+            //        Score: 10,
+            //        IsComplete: true
+            //    };
+            //    console.log(taskResponse);
 
-                //    $.ajax({
-                //        url: 'TaskResponse',
-                //        method: 'POST',
-                //        data: taskResponse,
-                //        success: function(data) {
-                //            console.log(data);
-                //            // $('#point').text(data.points);
-                //        }
-                //    });
+            //    $.ajax({
+            //        url: 'TaskResponse',
+            //        method: 'POST',
+            //        data: taskResponse,
+            //        success: function(data) {
+            //            console.log(data);
+            //            // $('#point').text(data.points);
+            //        }
+            //    });
 
-                //});
+            //});
         });
 
 
-    
 
 
-</script>
+
+    </script>
 }

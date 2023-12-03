@@ -5,20 +5,20 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Gamification.UI.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+  public class ApplicationDbContext : IdentityDbContext
+  {
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options)
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-                : base(options)
-        {
 
-        }
-  
+    }
 
-        public DbSet<Tasks> Tasks { get; set; }
-        public DbSet<TasksResponse> Responses { get; set; }
-        public DbSet<Scores> Scores { get; set; }
-        public DbSet<LeaderBoader> LeaderBoaders { get; set; }
-		 public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+
+    public DbSet<Tasks> Tasks { get; set; }
+    public DbSet<TasksResponse> Responses { get; set; }
+    public DbSet<Scores> Scores { get; set; }
+    public DbSet<LeaderBoader> LeaderBoaders { get; set; }
+    public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     protected override void OnModelCreating(ModelBuilder builder)
     {
       base.OnModelCreating(builder);

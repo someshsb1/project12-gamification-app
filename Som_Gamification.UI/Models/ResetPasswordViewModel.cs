@@ -8,8 +8,8 @@ namespace Gamification.UI.Models
     public class ResetPasswordViewModel
     {
 
-    public bool IsPasswordPatternMatch { get; set; }    
-    [Required]
+        public bool IsPasswordPatternMatch { get; set; }
+        [Required]
         [Display(Name = "Username")]
         public string Username { get; set; }
 
@@ -24,6 +24,6 @@ namespace Gamification.UI.Models
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
 
-        public string Code { get; set; } 
+        public string Code { get; set; }
     }
 }

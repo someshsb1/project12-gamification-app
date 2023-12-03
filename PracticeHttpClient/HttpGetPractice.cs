@@ -63,19 +63,19 @@ namespace PracticeHttpClient
 					Step8 = (string)json["d"]["Step8"],
 					Step9 = (string)json["d"]["Step9"],
 					Step10 = (string)json["d"]["Step10"],
-					Step11= (string)json["d"]["Step11"],
+					Step11 = (string)json["d"]["Step11"],
 					Step12 = (string)json["d"]["Step12"],
 					Step13 = (string)json["d"]["Step13"],
 					FulfillmentMandatory = (string)json["d"]["FulfillmentMandatory"],
 					FulfillmentAll = (string)json["d"]["FulfillmentAll"]
 				}
 			};
-				Console.WriteLine(data.Data.FulfillmentMandatory);
-				var offset = data.Data.Step10.Substring(1,2);
-				//var offset = data.Data.Step10.IndexOf(':');
-				//offset = data.Data.Step10.IndexOf(':', offset + 1);
-				//var resulst = data.Data.Step10.IndexOf(':', offset + 1);
-				Console.WriteLine(offset);
+			Console.WriteLine(data.Data.FulfillmentMandatory);
+			var offset = data.Data.Step10.Substring(1, 2);
+			//var offset = data.Data.Step10.IndexOf(':');
+			//offset = data.Data.Step10.IndexOf(':', offset + 1);
+			//var resulst = data.Data.Step10.IndexOf(':', offset + 1);
+			Console.WriteLine(offset);
 		}
 	}
 }

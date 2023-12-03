@@ -20,7 +20,7 @@ namespace Gamification.UI.Controllers
             _roleManager = roleManager;
             _userManager = userManager;
         }
-		public IActionResult Index()
+        public IActionResult Index()
         {
             var roles = _db.Roles.ToList();
             return View(roles);
