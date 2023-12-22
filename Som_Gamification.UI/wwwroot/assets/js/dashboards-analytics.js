@@ -285,7 +285,7 @@
   
     growthChartOptions = {
       series: [fulfill],
-      labels: ['Progress'],
+      labels: ['.....'],
       chart: {
         height: 240,
         type: 'radialBar'

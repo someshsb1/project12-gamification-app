@@ -110,7 +110,12 @@ namespace Gamification.UI.Controllers
                 var dictionaryList = new List<DictionaryModel>();
                 var jObject = JObject.Parse(content);
                 var jToken = jObject["d"];
-
+        /*  Logic change on calculating StepsCount progress, 
+            if atleast one step is accomplished from 
+            StepCount out of total Steps, then ViewBag.StepCount on Dashboard
+            Score GrowthChart and Congratulation Card text.
+            will consider it as 100% 
+        */
                 var PointsDictionary = new Dictionary<string, int>()
         {
             {"@08@10", 10},
@@ -152,7 +157,7 @@ namespace Gamification.UI.Controllers
                         // Check if the step value is not "0"
                         if (item.Value != "0")
                         {
-                            fulfill = "100";
+                            fulfill = "100"; //if step value not 0, update progress on congrats card as 100%
                             stepsCompletedDictionary[item.Key] = true;
                         }
                         else
@@ -479,6 +484,14 @@ namespace Gamification.UI.Controllers
 
             return View();
         }
+
+        /**
+        @brief Retrieves and displays badges for a specified case study.*
+        This method takes a case study identifier as a parameter and retrieves corresponding badge data.
+        The retrieved data is used to generate a list of badges, and the result is passed to the view for display.*
+        @param caseStudy The case study identifier (default is "MM").*
+        @return Task<IActionResult> representing the result of the operation, displaying the badges view.
+        */
 
         public async Task<IActionResult> Badges(string caseStudy = "MM")
         {

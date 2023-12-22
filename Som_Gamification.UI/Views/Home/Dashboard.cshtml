@@ -16,7 +16,8 @@
         gtag('js', new Date());
         gtag('config', 'G-ECPJX21DQD');
     </script>
-    <!-- Toolbar Start -->
+
+    <!-- Case Studies Toolbar Start -->
     <div class="order-0 mb-4">
         <div class="card h-100">
             <div class="toolbar">
@@ -65,12 +66,12 @@
             </div>
         </div>
     </div>
-    <!-- Toolbar ends -->
+    <!-- Case Studies Toolbar ends -->
 
     <div class="row">
         <!-- Congratulations Card -->
-        <div class="col-lg-8 mb-4 order-0">
-            <div class="card h-100" style="height: 50%;">
+        <div class="col-lg-8 mb-6">
+            <div class="card h-50">
                 <div class="d-flex align-items-end row">
                     <div class="col-sm-7">
                         <div class="card-body">
@@ -82,7 +83,7 @@
                                         @ViewBag.Fulfillment</strong></span><strong><span
                                         class="text-primary">%</span></strong> of the <strong><span id="process"
                                         class="text-primary"></span></strong>!
-                                @if (ViewBag.Fulfillment < 100)
+                                @if (ViewBag.Fulfillment < 100) //if user task progress is @ 100%, skip printing the below statement.
                                     {
                                         <span>Continue the steps to earn more points and badges.</span>
                                     }
@@ -99,9 +100,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
 
             <!-- Cards for Points, Levels, Medals, and Badges -->
+
             <div class="col-lg-4 col-md-4 order-0">
                 <div class="row">
                     <!-- Points Card -->
@@ -283,10 +285,9 @@
             </div>
 
             <!-- Steps Report Card (Right Side) -->
-        </div>
+        
 
 
-        <div class="row">
             <!-- Growth Chart Card -->
             <div class="col-lg-8 md-4">
                 <div class="card">

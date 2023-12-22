@@ -13,6 +13,7 @@ using Gamification.UI.Data;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Text;
 using System.Text.RegularExpressions;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace Gamification.UI.Controllers
@@ -186,6 +187,16 @@ namespace Gamification.UI.Controllers
             return View(registerViewModel);
         }
 
+            /**
+            @brief Handles HTTP POST requests to create multiple users.*
+            This method is restricted to users with the "Admin" role.
+            *
+            @param startingIndex The starting index for generating user data.
+            @param numberOfUsersToCreate The number of users to create.
+            @param returnurl The URL to redirect to after creating users. Defaults to "/Account/GetUsers".
+            *
+            @return IActionResult representing the result of the operation.
+            */
         [HttpPost]
         [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
@@ -255,15 +266,15 @@ namespace Gamification.UI.Controllers
         }
 
 
-
+        //used asynchronous method "await" to prevent potentially blocking operations from database queries. 
 
         [HttpGet]
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetUsers()
         {
-            var userList = _db.ApplicationUsers.ToList();
-            var userRole = _db.UserRoles.ToList();
-            var roles = _db.Roles.ToList();
+            var userList = await _db.ApplicationUsers.ToListAsync();
+            var userRole = await _db.UserRoles.ToListAsync();
+            var roles = await _db.Roles.ToListAsync();
             foreach (var user in userList)
             {
                 var role = userRole.FirstOrDefault(u => u.UserId == user.Id);
@@ -372,6 +383,11 @@ namespace Gamification.UI.Controllers
             return View();
         }
 
+        /**
+        @brief Handles HTTP GET requests to display the reset password confirmation view.*
+        This method is accessible to users with either the "Admin" or "User" role.*
+        @return IActionResult representing the result of the operation, displaying the reset password confirmation view.
+        */
         [HttpPost]
         [Authorize(Roles = "Admin,User")]
         [ValidateAntiForgeryToken]
