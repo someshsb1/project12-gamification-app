@@ -126,3 +126,26 @@ Retrieves and displays badges for a specified case study.
 Parameter passed is caseStudy, The case study identifier (default is "MM").
 Result of the operation is a view displaying all the badges.
 
+
+       Chat Feature
+
+Overview of the Chat Feature
+The Gamification application now includes a real-time chat feature, implemented using the ASP.NET SignalR library. 
+This feature enhances user interaction by allowing instant communication, akin to other asynchronous chat applications.
+
+Technical Implementation
+SignalR Integration: Utilizes SignalR for real-time, bidirectional communication between server and clients.
+User Retrieval: Retrieves all users for chat participation, supporting direct user-to-user interactions.
+Asynchronous Communication: Operates asynchronously, enabling real-time messaging without page refreshes.
+
+User Interface
+Chat Window: Features a chat window where real-time messages are displayed.
+Real-time Interaction: Messages appear instantly, facilitating dynamic conversations.
+Notifications: Informs users of new messages, keeping them updated.
+Unread Message Indicator: Includes a label showing the number of unread messages, enhancing user awareness.
+Message Sorting: Chats are sorted based on recent messages, ensuring the most active conversations are easily accessible.
+
+Future Enhancements
+Group Chats: Supports creating and participating in group chats.
+File Sharing: Allows file sharing within chat sessions.
+
