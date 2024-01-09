@@ -285,7 +285,7 @@
   
     growthChartOptions = {
       series: [fulfill],
-      labels: ['.....'],
+      labels: ['Total'], //Changed the wording from "Progress" to "Total"
       chart: {
         height: 240,
         type: 'radialBar'

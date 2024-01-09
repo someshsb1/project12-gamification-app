@@ -200,7 +200,7 @@ namespace Gamification.UI.Controllers
         [HttpPost]
         [Authorize(Roles = "Admin")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateUsers(int startingIndex, int numberOfUsersToCreate, string returnurl = null)
+        public async Task<IActionResult> CreateUsers(int startingIndex, int numberOfUsersToCreate, string email, string returnurl = null)  
         {
             ViewData["ReturnUrl"] = returnurl;
             returnurl = returnurl ?? Url.Content("/Account/GetUsers");
@@ -220,7 +220,7 @@ namespace Gamification.UI.Controllers
                     Username = $"LEARN-{i:000}",
                     //UserId = $"LEARN-{i:000}",
                     Password = $"Password@{i:000}",
-                    //Email = $"user{i:000}@example.com",
+                    Email = email, //takes user input email
                     Name = $"LEARN-{i:000}",
                     ClientId = 101,
                     //ApplicationServer = "trek.ucc.uwm.edu"
@@ -264,8 +264,6 @@ namespace Gamification.UI.Controllers
             // Redirect to the return URL after creating all users
             return LocalRedirect(returnurl);
         }
-
-
         //used asynchronous method "await" to prevent potentially blocking operations from database queries. 
 
         [HttpGet]
